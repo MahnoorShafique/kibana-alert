@@ -1,0 +1,72 @@
+[
+  {
+    "alert_id": "apm.transaction_duration_Production",
+    "rule_id": "104f2930-5c4b-11ee-b892-05e51b0a33a8",
+    "reason": "Avg. latency is 44 ms in the last 5 mins for prod-auth. Alert when > 40 ms.",
+    "service_name": "prod-auth",
+    "date": "2023-09-28 11:07:56"
+  },
+  {
+    "alert_id": "apm.transaction_duration_Production",
+    "rule_id": "e7d31610-5c4a-11ee-b892-05e51b0a33a8",
+    "reason": "Avg. latency is 139 ms in the last 5 mins for prod-content. Alert when > 98 ms.",
+    "service_name": "prod-content",
+    "date": "2023-09-28T05:35:23.141Z"
+  },
+  {
+    "alert_id": "apm.transaction_error_rate_prod-admin_request_Production",
+    "rule_id": "87b75fb0-5d2c-11ee-b892-05e51b0a33a8",
+    "reason": "Failed transactions is 11% in the last 5 mins for prod-admin. Alert when > 9.0%.",
+    "service_name": "prod-admin",
+    "date": "2023-09-28 10:39:50"
+  },
+  {
+    "alert_id": "apm.transaction_duration_Production",
+    "rule_id": "e249b3a0-5d28-11ee-b892-05e51b0a33a8",
+    "reason": "Avg. latency is 171 ms in the last 5 mins for prod-teacher-training. Alert when > 100 ms.",
+    "service_name": "prod-teacher-training",
+    "date": "2023-09-28 10:09:25"
+  },
+  {
+    "alert_id": "apm.transaction_error_rate_prod-teacher-training_request_Production",
+    "rule_id": "1b7d6150-5d2c-11ee-b892-05e51b0a33a8",
+    "reason": "Failed transactions is 1.0% in the last 20 mins for prod-teacher-training. Alert when > 1.0%.",
+    "service_name": "prod-teacher-training",
+    "date": "2023-09-28 07:47:40"
+  },
+  {
+    "alert_id": "apm.transaction_duration_Production",
+    "rule_id": "19bc7ed0-5d29-11ee-b892-05e51b0a33a8",
+    "reason": "Avg. latency is 136 ms in the last 5 mins for prod-class. Alert when > 100 ms.",
+    "service_name": "prod-class",
+    "date": "2023-09-28 08:11:13"
+  },
+  {
+    "alert_id": "apm.transaction_error_rate_prod-content_request_Production",
+    "rule_id": "aa61d820-5d2b-11ee-b892-05e51b0a33a8",
+    "reason": "Failed transactions is 4.3% in the last 5 mins for prod-content. Alert when > 4.0%.",
+    "service_name": "prod-content",
+    "date": "2023-09-27 20:14:38"
+  },
+  {
+    "alert_id": "apm.transaction_duration_Production",
+    "rule_id": "04b1af60-5d29-11ee-b892-05e51b0a33a8",
+    "reason": "Avg. latency is 114 ms in the last 5 mins for prod-teacher. Alert when > 100 ms.",
+    "service_name": "prod-teacher",
+    "date": "2023-09-28 08:11:40"
+  },
+  {
+    "alert_id": "apm.transaction_duration_Production",
+    "rule_id": "d11a49a0-5d28-11ee-b892-05e51b0a33a8",
+    "reason": "Avg. latency is 106 ms in the last 5 mins for prod-school. Alert when > 100 ms.",
+    "service_name": "prod-school",
+    "date": "2023-09-28 08:11:22"
+  },
+  {
+    "alert_id": "apm.transaction_error_rate_prod-school_request_Production",
+    "rule_id": "fa179350-5d2b-11ee-b892-05e51b0a33a8",
+    "reason": "Failed transactions is 1.7% in the last 20 mins for prod-school. Alert when > 1.0%.",
+    "service_name": "prod-school",
+    "date": "2023-09-27 19:28:35"
+  }
+]
